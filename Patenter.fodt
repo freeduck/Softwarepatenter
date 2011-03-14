@@ -37,35 +37,38 @@
    <office:meta>
       <meta:initial-creator>Kristian Jensen</meta:initial-creator>
       <meta:creation-date>2011-02-21T22:05:22</meta:creation-date>
-      <dc:date>2011-02-28T23:15:32</dc:date>
+      <dc:date>2011-03-14T23:01:26</dc:date>
       <dc:creator>Kristian Jensen</dc:creator>
-      <meta:editing-duration>PT3H42M40S</meta:editing-duration>
-      <meta:editing-cycles>27</meta:editing-cycles>
+      <meta:editing-duration>PT5H55M16S</meta:editing-duration>
+      <meta:editing-cycles>49</meta:editing-cycles>
       <meta:generator>LibreOffice/3.3$Linux LibreOffice_project/330m19$Build-8</meta:generator>
+      
+      
+      
       
       <meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0"
                                meta:page-count="3"
-                               meta:paragraph-count="20"
-                               meta:word-count="411"
-                               meta:character-count="2975"/>
+                               meta:paragraph-count="29"
+                               meta:word-count="541"
+                               meta:character-count="3696"/>
    </office:meta>
    <office:settings>
       <config:config-item-set config:name="ooo:view-settings">
-         <config:config-item config:name="ViewAreaTop" config:type="int">5927</config:config-item>
+         <config:config-item config:name="ViewAreaTop" config:type="int">15452</config:config-item>
          <config:config-item config:name="ViewAreaLeft" config:type="int">0</config:config-item>
          <config:config-item config:name="ViewAreaWidth" config:type="int">35006</config:config-item>
-         <config:config-item config:name="ViewAreaHeight" config:type="int">15242</config:config-item>
+         <config:config-item config:name="ViewAreaHeight" config:type="int">14025</config:config-item>
          <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
          <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
          <config:config-item-map-indexed config:name="Views">
             <config:config-item-map-entry>
                <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-               <config:config-item config:name="ViewLeft" config:type="int">12303</config:config-item>
-               <config:config-item config:name="ViewTop" config:type="int">12928</config:config-item>
+               <config:config-item config:name="ViewLeft" config:type="int">6595</config:config-item>
+               <config:config-item config:name="ViewTop" config:type="int">25465</config:config-item>
                <config:config-item config:name="VisibleLeft" config:type="int">0</config:config-item>
-               <config:config-item config:name="VisibleTop" config:type="int">5927</config:config-item>
+               <config:config-item config:name="VisibleTop" config:type="int">15452</config:config-item>
                <config:config-item config:name="VisibleRight" config:type="int">35004</config:config-item>
-               <config:config-item config:name="VisibleBottom" config:type="int">21167</config:config-item>
+               <config:config-item config:name="VisibleBottom" config:type="int">29475</config:config-item>
                <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
                <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
                <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -151,11 +154,14 @@
    </office:settings>
    <office:scripts>
       <office:script script:language="ooo:Basic">
-         <ooo:libraries/>
+         <ooo:libraries>
+            <ooo:library-embedded ooo:name="Standard"/>
+         </ooo:libraries>
       </office:script>
    </office:scripts>
    <office:font-face-decls>
       <style:font-face style:name="Lohit Hindi1" svg:font-family="'Lohit Hindi'"/>
+      <style:font-face style:name="Ubuntu" svg:font-family="Ubuntu" style:font-family-generic="swiss"/>
       <style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'"
                        style:font-family-generic="roman"
                        style:font-pitch="variable"/>
@@ -296,6 +302,29 @@
             </style:tab-stops>
          </style:paragraph-properties>
       </style:style>
+      <style:style style:name="Footnote" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:class="extra">
+         <style:paragraph-properties fo:margin-left="0.1965in" fo:margin-right="0in" fo:text-indent="-0.1965in"
+                                     style:auto-text-indent="false"
+                                     text:number-lines="false"
+                                     text:line-number="0"/>
+         <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+      </style:style>
+      <style:style style:name="Heading_20_2" style:display-name="Heading 2"
+                   style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text_20_body"
+                   style:default-outline-level="2"
+                   style:class="text">
+         <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold"
+                                style:font-size-asian="14pt"
+                                style:font-style-asian="italic"
+                                style:font-weight-asian="bold"
+                                style:font-size-complex="14pt"
+                                style:font-style-complex="italic"
+                                style:font-weight-complex="bold"/>
+      </style:style>
       <style:style style:name="Internet_20_link" style:display-name="Internet link"
                    style:family="text">
          <style:text-properties fo:color="#000080" fo:language="zxx" fo:country="none"
@@ -306,6 +335,12 @@
                                 style:country-asian="none"
                                 style:language-complex="zxx"
                                 style:country-complex="none"/>
+      </style:style>
+      <style:style style:name="Footnote_20_Symbol" style:display-name="Footnote Symbol"
+                   style:family="text"/>
+      <style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"
+                   style:family="text">
+         <style:text-properties style:text-position="super 58%"/>
       </style:style>
       <text:outline-style style:name="Outline">
          <text:outline-level-style text:level="1" style:num-format="">
@@ -379,7 +414,10 @@
             </style:list-level-properties>
          </text:outline-level-style>
       </text:outline-style>
-      <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0"
+      <text:notes-configuration text:note-class="footnote" text:citation-style-name="Footnote_20_Symbol"
+                                text:citation-body-style-name="Footnote_20_anchor"
+                                style:num-format="1"
+                                text:start-value="0"
                                 text:footnotes-position="page"
                                 text:start-numbering-at="document"/>
       <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
@@ -401,17 +439,25 @@
             <style:tab-stops/>
          </style:paragraph-properties>
       </style:style>
-      <style:style style:name="P3" style:family="paragraph"
-                   style:parent-style-name="Bibliography_20_Heading">
-         <style:paragraph-properties fo:break-before="page"/>
-      </style:style>
-      <style:style style:name="P4" style:family="paragraph"
-                   style:parent-style-name="Bibliography_20_1">
-         <style:paragraph-properties>
+      <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in"
+                                     fo:margin-bottom="0in"
+                                     fo:line-height="100%"
+                                     fo:text-align="start"
+                                     style:justify-single-word="false"
+                                     fo:hyphenation-ladder-count="no-limit"
+                                     fo:text-indent="0in"
+                                     style:auto-text-indent="false"
+                                     style:text-autospace="ideograph-alpha"
+                                     style:punctuation-wrap="hanging"
+                                     style:line-break="strict"
+                                     style:writing-mode="lr-tb">
             <style:tab-stops/>
          </style:paragraph-properties>
+         <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2"
+                                fo:hyphenation-push-char-count="2"/>
       </style:style>
-      <style:style style:name="P5" style:family="paragraph">
+      <style:style style:name="P4" style:family="paragraph">
          <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in"
                                      fo:margin-bottom="0in"
                                      fo:line-height="100%"
@@ -429,8 +475,7 @@
          <style:text-properties style:use-window-font-color="true" style:text-outline="false"
                                 style:text-line-through-style="none"
                                 style:text-position="0% 100%"
-                                fo:font-family="Ubuntu"
-                                style:font-family-generic="swiss"
+                                style:font-name="Ubuntu"
                                 fo:font-size="10pt"
                                 fo:letter-spacing="normal"
                                 fo:language="da"
@@ -460,6 +505,10 @@
                                 style:font-relief="none"
                                 style:text-overline-style="none"
                                 style:text-overline-color="font-color"/>
+      </style:style>
+      <style:style style:name="T2" style:family="text">
+         <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
+                                style:font-style-complex="italic"/>
       </style:style>
       <style:style style:name="Sect1" style:family="section">
          <style:section-properties style:editable="false">
@@ -497,35 +546,52 @@
             <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
          </text:sequence-decls>
          <text:h text:style-name="Heading_20_1" text:outline-level="1">Patenter</text:h>
-         <text:p text:style-name="Text_20_body">Patenter blev oprindeligt indført for at beskytte konkrete og fysiske opfindelser. Enhver form for statslig protektionisme er en kontrakt mellem skaberen og samfundet, hvor samfundet afgiver visse friheder til gengæld for øget produktivitet gennem økonomisk kompensation. Konkret giver patentlovgivning opfindere en eneret til den nye teknologi <text:s/>i 20 år til gengæld for offentliggørelse af teknologiens specifikationer og for brugen af monopolhaverens teknologi. Så hvis indførelsen <text:s/>af softwarepatenter ikke vil føre til øget produktivitet, og de ikke vil være til gavn for hele samfundet, er de per definition en dårlig idé.<text:bibliography-mark text:identifier="Edward Griffith-Jones 2005" text:bibliography-type="article"
+         <text:h text:style-name="Heading_20_2" text:outline-level="2">Indledning</text:h>
+         <text:p text:style-name="Text_20_body">Jeg vil i denne artikel beskrive de skadelige virkninger for IT-branchen og samfundet som helhed ved softwarepatenter. <text:s/>
+         </text:p>
+         <text:h text:style-name="Heading_20_2" text:outline-level="2">Baggrund</text:h>
+         <text:p text:style-name="Text_20_body">
+            <text:span text:style-name="T2">”Patenter blev oprindeligt indført for at beskytte konkrete og fysiske opfindelser. Enhver form for statslig protektionisme er en kontrakt mellem skaberen og samfundet, hvor samfundet afgiver visse friheder til gengæld for øget produktivitet gennem økonomisk kompensation. Konkret giver patentlovgivning opfindere en eneret til den nye teknologi <text:s/>i 20 år til gengæld for offentliggørelse af teknologiens specifikationer og for brugen af monopolhaverens teknologi. Så hvis indførelsen <text:s/>af softwarepatenter ikke vil føre til øget produktivitet, og de ikke vil være til gavn for hele samfundet, er de per definition en dårlig idé.”</text:span> 
+            <text:span text:style-name="T2">
+               <text:note text:id="ftn1" text:note-class="footnote">
+                  <text:note-citation>1</text:note-citation>
+                  <text:note-body>
+                     <text:p text:style-name="Footnote">Oversat fra engelsk</text:p>
+                  </text:note-body>
+               </text:note>
+            </text:span>
+            <text:span text:style-name="T2"> </text:span>
+            <text:bibliography-mark text:identifier="Edward Griffith-Jones 2005" text:bibliography-type="article"
                                     text:author="Edward Griffith-Jones"
                                     text:publisher="O'Reilly Media"
                                     text:title="Software Patents in the EU"
                                     text:year="2005"
-                                    text:url="http://www.oreillynet.com/pub/a/network/2005/03/08/softwarepatents.html">[Edward Griffith-Jones 2005]</text:bibliography-mark>
+                                    text:url="http://www.oreillynet.com/pub/a/network/2005/03/08/softwarepatents.html">[Edward Griffith-Jones 2005]</text:bibliography-mark> 
             <office:annotation>
                <dc:creator>Kristian Jensen</dc:creator>
                <dc:date>2011-02-28T22:38:02</dc:date>
-               <text:p text:style-name="P5">
+               <text:p text:style-name="P4">
                   <text:span text:style-name="T1">Patents were originally introduced to protect concrete and physical inventions. Any type of state protectionism is a contract between the creator and society, under which society abridges certain freedoms in return for increased productivity through financial compensation. </text:span>
                </text:p>
-               <text:p text:style-name="P5">
-                  <text:span text:style-name="T1">Specifically, patent law gives inventors an exclusive right to new technology for 20 years in return for publication of the technology's specifications and for use of the technology in the monopolist's products. So, if allowing patents wouldn't lead to increased productivity, and they wouldn't benefit the whole of society; they would be a bad idea</text:span>
+               <text:p text:style-name="P4">
+                  <text:span text:style-name="T1">Specifically, patent law gives inventors an exclusive right to new technology for 20 years in return for publication of the technology's specifications and for use of the technology in the monopolist's products. So, if allowing patents wouldn't lead to increased productivity, and they wouldn't benefit the whole of society; they would be a bad idea</text:span> 
                </text:p>
-               <text:p text:style-name="P5">
-                  <text:span text:style-name="T1">.</text:span>
+               <text:p text:style-name="P4">
+                  <text:span text:style-name="T1">.</text:span> 
                   <text:span text:style-name="T1">
                      <text:a xlink:href="http://www.oreillynet.com/pub/a/network/2005/03/08/softwarepatents.html">http://www.oreillynet.com/pub/a/network/2005/03/08/softwarepatents.html</text:a>
                   </text:span>
+                  <text:span text:style-name="T1"> </text:span>
                </text:p>
-               <text:p text:style-name="P5">
+               <text:p text:style-name="P4">
                   <text:span text:style-name="T1"/>
                </text:p>
-               <text:p text:style-name="P5">
+               <text:p text:style-name="P4">
                   <text:span text:style-name="T1"/>
                </text:p>
-            </office:annotation>
+            </office:annotation> 
          </text:p>
+         <text:h text:style-name="Heading_20_2" text:outline-level="2">Misforståelser</text:h>
          <text:p text:style-name="Text_20_body">Softwarepatenter skaber mere innovation – Dette er det primære argument fra de entiteter og personer som ønsker at indføre softwarepatenter i Europa og Danmark, så lad os starte med at få aflivet den myte.</text:p>
          <text:p text:style-name="Text_20_body">
             <text:bibliography-mark text:identifier="James Bessen et. al. 2004" text:bibliography-type="manual"
@@ -541,32 +607,13 @@
                                     text:title="Opening Doors andSmashing Windows"
                                     text:year="2005"
                                     text:url="http://www.juergen-ernst.de/download_swpat/studie_bessen1.pdf">[Dean Baker 2005]</text:bibliography-mark> Sandsynliggør at de amerikanske forbrugerne betalter en merpris på mellem 80 og 120 mia. dollers om året for software grundet IPR (intellectual property rights ), i forhold til en situation med frie markedskræfter.</text:p>
-         <text:p text:style-name="Text_20_body">*MANGLER OVERSÆTTELSE*Programmering svarer til at skrive symfonier. Når en programmør skriver software, han væver sammen tusindvis af ideer (algoritmer eller beregningen regler) i en ophavsretligt beskyttede værker. Normalt nogle af idéerne i programmørens arbejde vil være nyt og ikke-indlysende ifølge (integrering af lave) standarder af patentsystemet. Når mange sådanne ideer er patenteret, bliver det umuligt at skrive software uden at krænke patenter. Software forfattere er i realiteten berøves deres ophavsret aktiver, de lever under konstant trussel for at blive afpresset af indehavere af store patent porteføljer. Som en følge heraf er mindre software skrevet og færre nye idéer frem.<text:bibliography-mark text:identifier="PILCH 2010" text:bibliography-type="www"
-                                    text:author="Hartmut PILCH"
-                                    text:publisher="ffii"
-                                    text:title="Software Patents in Europe"
-                                    text:year="2010"
-                                    text:url="http://eupat.ffii.org/int/intro/">[PILCH 2010]</text:bibliography-mark>
-            <office:annotation>
-               <dc:creator>Kristian Jensen</dc:creator>
-               <dc:date>2011-02-28T23:09:59</dc:date>
-               <text:p text:style-name="P5">
-                  <text:span text:style-name="T1">
-                     <text:a xlink:href="http://eupat.ffii.org/int/intro/">http://eupat.ffii.org/int/intro/</text:a>
-                  </text:span>
-               </text:p>
-               <text:p text:style-name="P5">
-                  <text:span text:style-name="T1"/>
-               </text:p>
-               <text:p text:style-name="P5">
-                  <text:span text:style-name="T1">Programming is similar to writing symphonies. When a programmer writes software, he weaves together thousands of ideas (algorithms or calculation rules) into a copyrighted work. Usually some of the ideas in the programmer's work will be new and non-obvious according to the (inherently low) standards of the patent system. When many such ideas are patented, it becomes impossible to write software without infringing on patents. Software authors are in effect deprived of their copyright assets; they live under permanent threat of being blackmailed by holders of large patent portfolios. As a result, less software is written and fewer new ideas appear. </text:span>
-               </text:p>
-            </office:annotation>
-         </text:p>
+         <text:h text:style-name="Heading_20_2" text:outline-level="2">En film analogi</text:h>
+         <text:p text:style-name="Text_20_body">Programmering kan sammenlignes med det at producere en film. Når en programmør udvikler en applikation flettes tusinde af ideer samen fra moduler og algoritmer til et samlet værk. Det er nærliggende at sammenligne drejebogen med et strukturelt framework og specialeffekts med gui elementer. Hvis film kunne patenteres på sammen måde som software kan det i USA, og som stærke lobby grupper også gerne vil have indført i EU, ville vi formentlig ikke have film som ”Scary movie” eller kortfilmen ”Virus”. Det er svært at forestille sig at hypen om Matrix og salget af DVDer <text:s/>er blevet minimeret blot fordi andre har benyttet de samme effekter eller en lignende historie, tvært imod. Problemet med softwarepatenter er at rigtig rigtig mange af de trivielle ideer som indgår i en hvilket som helst applikation er patenteret og hvis de rent faktisk blev håndhævet ville det være umuligt at udvikle nyt software. På en standard web-shop findes der eksempelvis 20 patenter(<text:a xlink:type="simple" xlink:href="http://webshop.ffii.org/">http://webshop.ffii.org/</text:a>), herunder selve konceptet ”webshop” og et patent på ”relaterede produkter”. Det mest skræmmende ved disse patenter er at de er udstedt af EPO i EU, tiltrods for at det går direkte imod <text:s/>Art. 52 EPC som forhindre patenter på softwarepatenter.</text:p>
+         <text:p text:style-name="Text_20_body"/>
          <text:p text:style-name="Text_20_body">Det er umuligt at vide om man overtræder et patent.<text:bibliography-mark text:identifier="Stallman danger" text:bibliography-type="www"
                                     text:author="Richard M. Stallman"
                                     text:publisher="The GNU Project"
-                                    text:title="The Danger of Software Patents">[Stallman danger]</text:bibliography-mark>
+                                    text:title="The Danger of Software Patents">[Stallman danger]</text:bibliography-mark> 
          </text:p>
          <text:p text:style-name="Text_20_body"/>
          <text:p text:style-name="Text_20_body">
@@ -576,7 +623,9 @@
                                     text:title="The cost of ideas"
                                     text:year="2004"
                                     text:url="http://www.economist.com/node/3388936">[Josh Lerner 2004]</text:bibliography-mark> It is becoming ever more apparent that the patent system isn't working.</text:p>
-         <text:p text:style-name="Text_20_body"/>
+         <text:p text:style-name="Text_20_body">
+            <text:soft-page-break/>
+         </text:p>
          <text:p text:style-name="Text_20_body">Youtube viedo om hvorfor den belgiske minister tage fejl om patenter:</text:p>
          <text:p text:style-name="Text_20_body">
             <text:a xlink:type="simple" xlink:href="http://www.youtube.com/watch?v=8X3o2aCYmSo">http://www.youtube.com/watch?v=8X3o2aCYmSo</text:a> 
@@ -588,7 +637,9 @@
             <text:a xlink:type="simple"
                     xlink:href="http://press.ffii.org/Press%20releases/Open%20Letter%20to%20MEPs%20on%20Unitary%20Patent%20as%20Enhanced%20Cooperation">http://press.ffii.org/Press%20releases/Open%20Letter%20to%20MEPs%20on%20Unitary%20Patent%20as%20Enhanced%20Cooperation</text:a> 
          </text:p>
-         <text:p text:style-name="Text_20_body"/>
+         <text:p text:style-name="Text_20_body">
+            <text:s/>
+         </text:p>
          <text:p text:style-name="Text_20_body">Studier:</text:p>
          <text:p text:style-name="Text_20_body">
             <text:a xlink:type="simple"
@@ -596,9 +647,11 @@
          </text:p>
          <text:p text:style-name="Text_20_body"/>
          <text:p text:style-name="Text_20_body"/>
-         <text:p text:style-name="Text_20_body"/>
          <text:p text:style-name="Text_20_body">
-            <text:soft-page-break/>
+            <text:s/>
+         </text:p>
+         <text:p text:style-name="Text_20_body">
+            <text:s/>
          </text:p>
          <text:p text:style-name="Text_20_body"/>
          <text:p text:style-name="Text_20_body"/>
